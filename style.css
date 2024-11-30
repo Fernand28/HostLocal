@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'titulo1';
+    src: url('DRAGONHUNTER.otf') format('opentype');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --cor1 : 'titulo1'
+}
+
+
+h1.quadrado {
+    font-family: var(--cor1);
+    border: 1px solid black;
+    box-shadow: 5px 5px 6px black;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+  background-image: linear-gradient(to bottom , #4C6DC5,#62F1F4);
+    letter-spacing: 10px;
+    font-size: 50px;
+    
+    
+}
+h1#q1{
+    background-color: skyblue;
+}
+
+section{
+    margin: auto;
+    background-color: lavender;
+    width: 1500px;
+    height: 1000px;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px black ;
+}
+div#hora {
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+
+    letter-spacing: 5px;
+}
